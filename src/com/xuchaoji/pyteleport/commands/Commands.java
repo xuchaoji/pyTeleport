@@ -38,7 +38,7 @@ public class Commands  implements CommandExecutor {
 							+ "/py set 更新自己所在坐标(设置后可接受传送一次，传送后自动失效)\n"
 							+ "/py to player 传送到player设置的坐标(非实时，请商量好传送后再传送)\n"
 							+ "/py del 删除自己的坐标");
-				}
+				} 
 			}else if(args.length==2) {
 				//传送到某玩家的坐标
 				if(args[0].equalsIgnoreCase("to")) {
