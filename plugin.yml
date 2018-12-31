@@ -1,0 +1,7 @@
+name: PyTeleport
+main: com.xuchaoji.pyteleport.PyTeleport
+version: 1.0
+commands: 
+    py:
+        description: main command for PyTeleport
+        usage: py
